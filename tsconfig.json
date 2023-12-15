@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "preserve",
+    "strict": true,
+    "target": "ES2015",
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "lib": ["esnext", "dom"],
+    //解决defineOptions报红
+    "types": ["unplugin-vue-define-options/macros-global" /* ... */]
+  }
+}
